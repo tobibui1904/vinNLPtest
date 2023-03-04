@@ -1,5 +1,6 @@
 import streamlit as st
 import nltk
+nltk.download('punkt')
 from nltk.util import ngrams
 from collections import Counter
 import collections
